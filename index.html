@@ -283,6 +283,7 @@ footer{border-top:1px solid rgba(201,164,92,.5)}
 .logo .lk b{font-family:Inter,system-ui,sans-serif;font-weight:800;font-size:15px;letter-spacing:.2em;color:var(--navy)}
 .logo .lk small{font-family:Inter,system-ui,sans-serif;font-weight:500;font-size:9.5px;letter-spacing:.2em;color:#7d8b99;margin-top:3px}
 @media(max-width:380px){.logo .lk b{font-size:13px;letter-spacing:.14em}}
+.cta-note{margin-top:18px;font-size:14px;color:var(--mut)}.cta-note b{color:var(--navy)}
 </style>
 </head>
 <body>
@@ -352,10 +353,10 @@ footer{border-top:1px solid rgba(201,164,92,.5)}
    <h1>Do primeiro contato ao <em>grande dia</em>, tudo no seu celular.</h1>
    <p class="lead">Convidados, mesas, cronograma, orçamento, cobrança por Pix e portal do cliente em um só lugar. Pensado para cerimonialistas, assessores, buffets e produtores.</p>
    <div class="cta">
-    <a class="btn btn-gold" data-app href="#">Testar grátis agora</a>
-    <a class="btn btn-line" href="#recursos">Ver o que ele faz</a>
+    <a class="btn btn-gold" data-app href="#">30 dias gratuito</a>
+    <a class="btn btn-line" href="#como">Ver como funciona</a>
    </div>
-   <div class="trust"><span>Funciona no celular</span><span>Instala sem loja de apps</span><span>Seus dados ficam com você</span></div>
+   <p class="cta-note"><b>Sem cartão de crédito.</b> Instala direto do navegador, como um aplicativo.</p>
   </div>
   <div class="phones" aria-hidden="true">
    <div class="phone p1"><div class="screen app">
@@ -470,7 +471,7 @@ footer{border-top:1px solid rgba(201,164,92,.5)}
 
 <section id="plano" class="alt">
  <div class="wrap">
-  <div class="head"><span class="eyebrow">Plano</span><h2>Um plano simples</h2><p>Teste grátis primeiro. Se fizer sentido para o seu negócio, assine o Pro.</p></div>
+  <div class="head"><span class="eyebrow">Plano</span><h2>Um plano simples</h2><p>30 dias grátis, sem cartão de crédito. Se fizer sentido para o seu negócio, assine o Pro.</p></div>
   <div class="price">
    <span class="badge">PROMOÇÃO POR TEMPO LIMITADO</span>
    <div class="v">R$ 90<small> /mês</small></div>
@@ -482,7 +483,7 @@ footer{border-top:1px solid rgba(201,164,92,.5)}
     <li>Sua marca nos documentos</li>
     <li>Dados protegidos por senha</li>
    </ul>
-   <a class="btn btn-gold" data-app href="#" style="display:block">Começar o teste grátis</a>
+   <a class="btn btn-gold" data-app href="#" style="display:block">30 dias gratuito</a>
    <p class="soon">Planos de 6 e 12 meses em breve.</p>
   </div>
  </div>
@@ -496,6 +497,7 @@ footer{border-top:1px solid rgba(201,164,92,.5)}
    <details><summary>Funciona sem internet?</summary><p>Seus dados ficam salvos no próprio aparelho. Recursos que dependem de envio, como abrir o WhatsApp, precisam de conexão.</p></details>
    <details><summary>Meus dados estão seguros?</summary><p>Você pode proteger o app com senha, e os dados ficam criptografados no aparelho. Guarde bem a senha: sem ela não há como recuperar os dados. Também dá para baixar um backup.</p></details>
    <details><summary>Posso usar a minha marca nos documentos?</summary><p>Sim. Cadastre logo, dados da empresa e rodapé, e eles aparecem em propostas, contratos, listas e relatórios.</p></details>
+   <details><summary>Como funciona o teste de 30 dias?</summary><p>Você usa o app completo por 30 dias, sem cartão de crédito. Quando o teste termina, seus dados continuam salvos no aparelho e você pode baixar um backup. Para seguir usando, assine o Pro pelo WhatsApp e ative com o código recebido.</p></details>
    <details><summary>Como assino o Pro?</summary><p>Pelo próprio app, com o botão de assinatura pelo WhatsApp. Você recebe um código de ativação para o seu aparelho.</p></details>
    <details><summary>Posso testar sem mexer nos meus dados?</summary><p>Sim. O modo manual abre o app com dados fictícios, e seus dados reais voltam quando você sai.</p></details>
   </div>
@@ -515,8 +517,8 @@ footer{border-top:1px solid rgba(201,164,92,.5)}
 
 <script>
 /* ===== AJUSTE AQUI ===== */
-var APP_URL = "../";            // endereço onde o app está publicado
-var WHATS   = "";                  // WhatsApp com DDI+DDD, só números. Ex.: 5511999999999
+var APP_URL = "https://app.diadoevento.com.br/";            // endereço onde o app está publicado
+var WHATS   = "5515998293087";                  // WhatsApp com DDI+DDD, só números. Ex.: 5511999999999
 var WHATS_MSG = "Olá! Quero conhecer o Dia do Evento.";
 /* ======================= */
 document.getElementById("ano").textContent = new Date().getFullYear();
