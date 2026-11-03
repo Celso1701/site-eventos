@@ -1,0 +1,35 @@
+FOTOS DA GALERIA
+Salve suas fotos nesta pasta (img/) com estes nomes, em .jpg.
+Quando o arquivo existir, ele substitui a ilustração automaticamente.
+Sugestão: 1200 x 800 px, horizontais, até 300 KB cada.
+
+img/casamento-1.jpg  ->  Cerimônia
+img/casamento-2.jpg  ->  Decoração
+img/casamento-3.jpg  ->  Noivos
+img/casamento-4.jpg  ->  Mesa dos convidados
+img/casamento-5.jpg  ->  Bolo
+img/casamento-6.jpg  ->  Pista de dança
+img/evento-1.jpg  ->  Festa de 15 anos
+img/evento-2.jpg  ->  Corporativo
+img/evento-3.jpg  ->  Formatura
+img/evento-4.jpg  ->  Salão montado
+img/evento-5.jpg  ->  Aniversário
+img/evento-6.jpg  ->  Iluminação
+img/show-1.jpg  ->  Palco principal
+img/show-2.jpg  ->  Banda ao vivo
+img/show-3.jpg  ->  DJ
+img/show-4.jpg  ->  Iluminação de palco
+img/show-5.jpg  ->  Plateia
+img/show-6.jpg  ->  Camarote VIP
+img/buffet-1.jpg  ->  Mesa de buffet
+img/buffet-2.jpg  ->  Salgados
+img/buffet-3.jpg  ->  Doces
+img/buffet-4.jpg  ->  Jantar servido
+img/buffet-5.jpg  ->  Coquetel
+img/buffet-6.jpg  ->  Churrasco
+img/prof-1.jpg  ->  Cerimonialista
+img/prof-2.jpg  ->  Equipe em ação
+img/prof-3.jpg  ->  Fotógrafo
+img/prof-4.jpg  ->  Decorador
+img/prof-5.jpg  ->  Garçons e cozinha
+img/prof-6.jpg  ->  DJ e som
